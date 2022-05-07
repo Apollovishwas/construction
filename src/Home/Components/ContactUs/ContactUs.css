@@ -1,0 +1,47 @@
+.ContactUsContainer{
+    margin-top:5%;
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.Address{
+    display: flex;
+    flex-direction: column;
+}
+.addressText{
+    margin-top:-17%;
+}
+.cuTitle {
+    margin-top:5%;
+    color:white;
+}
+
+.PhoneNumbers{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+}
+
+.phoneText{
+    margin-top:-13%;
+}
+
+@media (max-width: 600px) {
+    .ContactUsContainer{
+     
+  
+        flex-direction:column;
+       
+    }
+
+    .Address{
+     margin-top:15%
+    }
+
+    .PhoneNumbers{
+     margin-top:15%;
+    }
+    
+  }

@@ -1,0 +1,13 @@
+.ourServices{
+    background-color:rgb(26, 26, 26);
+    color: white;
+}
+
+.designTitle {
+    padding: 2.5%;
+}
+
+.ourServicesContainer {
+    display:flex;
+    flex-direction:column;
+}

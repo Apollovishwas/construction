@@ -1,0 +1,49 @@
+.navContainer{
+    display: flex;
+    flex-direction: row;
+}
+.navOptions{
+    float:right;
+    display:flex;
+    flex-direction:row;
+    list-style: none;
+ 
+
+}
+
+li {
+    color:black;
+    padding: 20px;
+    font-size:17px;   
+}
+
+.theLogo {
+    width: 20%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.navOptionsContainer {
+    display: block;
+    margin-top: 2%;
+margin-right: 5%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+@media (max-width: 600px) {
+    .navOptionsContainer {
+        display: none;
+    }
+    .theLogo {
+        width: 40%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+  }
