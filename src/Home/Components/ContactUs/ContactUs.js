@@ -15,13 +15,13 @@ export default function ContactUs() {
     <p className="addressText">Ontario, Canada.</p>
     </div>
     <div className='PhoneNumbers'>
-        <p className='phoneText'>Ivan Galicica : Gay's Phone number</p>
+        <p className='phoneText'>Ivan Galicica : 4168383081</p>
         <p className='phoneText'>Vishwas : +16475740281</p>
         </div>
 
 
         <div className='PhoneNumbers'>
-        <p className='phoneText'>Ivan Galicica :ivancoronel962@gmail.com</p>
+        <p className='phoneText'>Ivan Galicica :ivangarcia926@gmail.com</p>
         <p className='phoneText'>Vishwas : apollovishwas@gmail.com</p>
         </div>
         </div>
